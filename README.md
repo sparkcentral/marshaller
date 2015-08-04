@@ -2,6 +2,8 @@
 
 Generic marshalling component. Provides functionality to transform data from one form to another and vice versa.
 
+[![Build Status](https://travis-ci.org/sparkcentral/marshaller.svg)](https://travis-ci.org/sparkcentral/marshaller)
+
 There are many use cases where marshalling can be useful. Most of them though would be about taking snapshot of all properties of an object and sending it to some external system (database for persistence or browser as body of HTTP response).
 
 Usually this "source" data can not be send "as is" and needs to be transformed. In very simple case: your object properties may be named in "camelCase" style and your database table field names are "underscore_separated". In practice there are many more reasons for such or similar transformations.
